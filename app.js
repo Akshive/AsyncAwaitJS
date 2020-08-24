@@ -22,6 +22,11 @@ function createPost(post, callback) {
 
 createPost({ title: "Post Three", body: "This is the third post" }, getPosts);
 
+
 function dummy_fn_test2() {
   console.log("test2");
+
+function dummy_fn_test(){
+  console.log('test');
+
 }
